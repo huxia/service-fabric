@@ -21,7 +21,6 @@ namespace Microsoft.ServiceFabric.Data
 #if DotNetCoreClrLinux
             // Need to update KnownDlls list in case dependent Dlls change due to change/update for MCG generated interop dll's dependency requirements.
             "Microsoft.ServiceFabric.Data.Impl.McgInterop",
-            "System.Private.CompilerServices.ICastable",
             "System.Private.Interop"
 #endif
         };

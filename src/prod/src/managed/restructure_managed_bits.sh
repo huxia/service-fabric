@@ -31,7 +31,6 @@ cp ${MANAGED_UBUNTU_LIB_DIR}/Microsoft.ServiceFabric.Data.Impl/Microsoft.Service
 cp ${MANAGED_UBUNTU_LIB_DIR}/Microsoft.ServiceFabric.Data.Impl/Microsoft.ServiceFabric.Data.Impl.McgInterop.dll ${MANAGED_PUBLISH_EXTERNAL_DIR}/Fabric.Code/NS/
 cp ${MANAGED_UBUNTU_LIB_DIR}/System.Fabric.BackupRestore/System.Fabric.BackupRestore.dll ${MANAGED_PUBLISH_EXTERNAL_DIR}/Fabric.Code/NS/
 cp ${MANAGED_UBUNTU_LIB_DIR}/System.Fabric/System.Private.Interop.dll ${MANAGED_PUBLISH_EXTERNAL_DIR}/Fabric.Code/NS/
-cp ${MANAGED_PUBLISH_EXTERNAL_DIR}/Fabric.Code/System.Private.CompilerServices.ICastable.dll ${MANAGED_PUBLISH_EXTERNAL_DIR}/Fabric.Code/NS/
 
 # setup FabricUS
 mkdir -p ${MANAGED_PUBLISH_EXTERNAL_DIR}/FabricUS/US.Code.Current

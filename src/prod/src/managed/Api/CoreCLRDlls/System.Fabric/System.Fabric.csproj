@@ -1046,7 +1046,6 @@
 
   <ItemGroup>
     <PackageReference Include="System.Security.Principal.Windows" Version="4.4.0" />
-    <PackageReference Include="System.Private.CompilerServices.ICastable" Version="1.0.1" />
   </ItemGroup>
 
   <Import Project="$(SRCROOT)\properties\ServiceFabric.CoreClr.targets" />

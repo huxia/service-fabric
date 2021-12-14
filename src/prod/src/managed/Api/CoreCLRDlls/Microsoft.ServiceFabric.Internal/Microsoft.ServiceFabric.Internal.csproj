@@ -107,7 +107,6 @@
     <ProjectReference Include="..\Microsoft.ServiceFabric.Internal.Strings\Microsoft.ServiceFabric.Internal.Strings.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="System.Private.CompilerServices.ICastable" Version="1.0.1" />
   </ItemGroup>
   <Import Project="$(SRCROOT)\properties\ServiceFabric.CoreClr.targets" />
   <Import Project="$(SRCROOT)\properties\NetStandard\service_fabric_coreclr_mcg.targets" />
