@@ -30,8 +30,7 @@ To install the SDK and the associated runtime package via the apt-get command-li
 3. Add the new Gnu Privacy Guard (GnuPG, or GPG) key to your APT keyring.
 
     ```bash
-    sudo apt-key adv --keyserver apt-mo.trafficmanager.net --recv-keys 417A0893
-    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 417A0893
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B02C46DF417A0893
     ```
 
 4. Add the official Docker GPG key to your APT keyring.
